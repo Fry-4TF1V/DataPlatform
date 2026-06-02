@@ -1,5 +1,7 @@
-#import logging
-#logger = logging.getLogger(__name__)
+"""A minimal sample package."""
 
-def coucou():
-    print("Hello World !!!")
+from .hello import hello_world
+
+__version__ = "0.1.0"
+
+__all__ = ["hello_world"] 
