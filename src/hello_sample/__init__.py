@@ -1,5 +1,5 @@
-import logging
-logger = logging.getLogger(__name__)
+#import logging
+#logger = logging.getLogger(__name__)
 
 def hello():
-    logger.info("Hello World !!!")
+    print("Hello World !!!")
