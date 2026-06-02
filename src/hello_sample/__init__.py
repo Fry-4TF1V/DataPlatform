@@ -1,5 +1,5 @@
 #import logging
 #logger = logging.getLogger(__name__)
 
-def hello():
+def coucou():
     print("Hello World !!!")
